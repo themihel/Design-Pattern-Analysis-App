@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
     // Modification server
     static final String MODIFICATIONS_BASE_URL = "https://www.your-url.com/modification/" + GROUP + "/";
 
+    // Inidicates which character of the JS file is the currently used version
+    static final int MODIFICATION_VERSION_POSITION = 12;
+
     // Tracking Server information
     static final String TRACK_URL = "https://www.your-url.com/track/trackaction";
 
@@ -90,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         // parse version out of JS file to determine which version is used on this device (needed for evaluation)
         if (jsPayload.length() > 0) {
             // Char 16 is the version in the javascript (which can be found in the server repo)
-            MODIFICATION_VERSION = String.valueOf(jsServerPayload.charAt(16));
+            MODIFICATION_VERSION = String.valueOf(jsServerPayload.charAt(MODIFICATION_VERSION_POSITION));
         } else {
             // Fallback
             MODIFICATION_VERSION = "0";
