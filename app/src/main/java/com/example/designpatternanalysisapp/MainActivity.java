@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     // Modification server
     static final String MODIFICATIONS_BASE_URL = "https://www.your-url.com/modification/" + GROUP + "/";
 
-    // Inidicates which character of the JS file is the currently used version
+    // Indicates which character of the JS file is the currently used version
     static final int MODIFICATION_VERSION_POSITION = 12;
 
     // Tracking Server information
