@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     static final int MODIFICATION_VERSION_POSITION = 12;
 
     // Tracking Server information
-    static final String TRACK_URL = "https://www.your-url.com/track/trackaction";
+    static final String TRACK_URL = "https://www.your-url.com/trackaction";
 
     // Adaptable user agent
     static final String USER_AGENT = "Design-Pattern-Analysis-App";
