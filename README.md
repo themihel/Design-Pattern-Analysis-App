@@ -1,6 +1,8 @@
 # Design Pattern Analysis - App
 Corresponding server: https://github.com/themihel/Design-Pattern-Analysis-Server
 
+Paper: https://dl.acm.org/doi/10.1145/3473856.3473987
+
 ## Background
 Background of this repository is a framework to give researchers the opportunity to have a look into closed source apps using their, mostly present, web app.
 It is possible to run different tests, like turning specific design patterns on or off. Any change using the functionality of Javascript and CSS is possible.
